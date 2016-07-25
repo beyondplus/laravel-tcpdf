@@ -1,0 +1,18 @@
+{
+    "name": "beyondplus/laravel-tcpdf",
+    "description": "TCPDF Custom Font for Myanmar Font",
+    "authors": [
+        {
+            "name": "San Pwint Thu",
+            "email": "sanpwintthu@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { "elibyy/tcpdf-laravel": "5.2.*" },
+    "autoload": {
+        "psr-4": {
+          "BeyondPlus\\Tcpdf\\": "src/"
+        }
+      }
+
+}
