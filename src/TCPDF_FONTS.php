@@ -1,6 +1,6 @@
 <?php
-namespace App\Helpers;
-use App\Helpers\TCPDF_STATIC;
+namespace BeyondPlus\TCPDF;
+use BeyondPlus\TCPDF\TCPDF_STATIC;
 //============================================================+
 // File name   : tcpdf_fonts.php
 // Version     : 1.1.0

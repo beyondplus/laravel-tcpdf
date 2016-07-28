@@ -1,5 +1,5 @@
 <?php
-namespace App\Helpers;
+namespace BeyondPlus\TCPDF;
 //============================================================+
 // File name   : tcpdf_static.php
 // Version     : 1.1.3
@@ -1842,8 +1842,8 @@ class TCPDF_STATIC {
 	/**
 	 * Wrapper to use fopen only with local files
 	 * @param filename (string) Name of the file to open
-	 * @param $mode (string) 
-	 * @return Returns a file pointer resource on success, or FALSE on error.  
+	 * @param $mode (string)
+	 * @return Returns a file pointer resource on success, or FALSE on error.
 	 * @public static
 	 */
 	public static function fopenLocal($filename, $mode) {
@@ -1859,7 +1859,7 @@ class TCPDF_STATIC {
 	 * Reads entire file into a string.
 	 * The file can be also an URL.
 	 * @param $file (string) Name of the file or URL to read.
-	 * @return The function returns the read data or FALSE on failure. 
+	 * @return The function returns the read data or FALSE on failure.
 	 * @author Nicola Asuni
 	 * @since 6.0.025
 	 * @public static
@@ -1950,7 +1950,7 @@ class TCPDF_STATIC {
 		return false;
 	}
 
-    
+
 
 	/**
 	 * Get ULONG from string (Big Endian 32-bit unsigned integer).
@@ -2089,7 +2089,7 @@ class TCPDF_STATIC {
 		return $a['i'];
 	}
 
-	
+
 	/**
 	 * Array of page formats
 	 * measures are calculated in this way: (inches * 72) or (millimeters * 72 / 25.4)
