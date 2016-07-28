@@ -36,5 +36,6 @@ TCPDF::AddPage('P','A4');
 TCPDF::writeHtml(view('pdf', array('records'=> $query)));
 TCPDF::Output('report.pdf', 'I');
 ```
+
 # Website
 [www.beyondplus.net](http://www.beyondplus.net)
