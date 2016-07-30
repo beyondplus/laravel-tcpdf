@@ -22,6 +22,7 @@ BeyondPlus\TCPDF\TcpdfServiceProvider::class,
 # Usage
 ```
 $fontname = TCPDF::font('Zawgyi-One');
+//$fontname = TCPDF::font('Myanmar3');
 TCPDF::SetFont($fontname , 11);
 TCPDF::SetTitle('Record Report');
 TCPDF::AddPage('P','A4');
@@ -38,7 +39,9 @@ TCPDF::AddPage('P','A4');
 TCPDF::writeHtml(view('pdf', array('records'=> $query)));
 TCPDF::Output('report.pdf', 'I');
 ```
+
 TCPDF::Output param  -> F localserver download, D download, I inline
+
 
 # Website
 [www.beyondplus.net](http://www.beyondplus.net)
