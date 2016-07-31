@@ -10,6 +10,7 @@ Find config/app.php in Project Folder
 ```
 'providers' => [
     //...
+Elibyy\TCPDF\ServiceProvider::class,
 BeyondPlus\TCPDF\TcpdfServiceProvider::class,
 ]
 //...
