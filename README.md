@@ -44,9 +44,20 @@ MMTCPDF::AddPage('P','A4');
 MMTCPDF::writeHtml(view('pdf', array('records'=> $query)));
 MMTCPDF::Output('report.pdf', 'I');
 ```
+```
+MMTCPDF::AddPage ->
+P = Portrait
+L = Landscape
 
-MMTCPDF::Output param  -> F localserver download, D download, I inline
+MMTCPDF::Output ->
+F = localserver download
+D = download
+I = inline
+```
 
+## License
+
+The Beyond Plus CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 # Website
 [www.beyondplus.net](http://www.beyondplus.net)
