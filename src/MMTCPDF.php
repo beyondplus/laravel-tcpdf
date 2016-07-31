@@ -41,8 +41,8 @@ class MMTCPDF
         return TCPDF::writeHtml($data);
       }
 
-      public static function Output($name){
-        return TCPDF::Output($name, 'I');
+      public static function Output($name, $usage){
+        return TCPDF::Output($name, $usage);
       }
 }
 
