@@ -57,7 +57,7 @@ I = inline
 
 ## License
 
-The Beyond Plus CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Beyond Plus Laravel TCPDF is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 # Website
 [www.beyondplus.net](http://www.beyondplus.net)
