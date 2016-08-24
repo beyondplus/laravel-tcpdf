@@ -4,6 +4,7 @@ namespace BeyondPlus\TCPDF;
 use BeyondPlus\TCPDF\TCPDF_FONTS;
 use BeyondPlus\TCPDF\TCPDF_STATIC;
 use Elibyy\TCPDF\Facades\TCPDF;
+use BeyondPlus\TCPDF\TCPDF_IMAGES;
 
 /**
  *
@@ -43,6 +44,10 @@ class MMTCPDF
 
       public static function Output($name, $usage){
         return TCPDF::Output($name, $usage);
+      }
+
+      public static function setBgImage($img, $width , $height) {
+        return TCPDF::Image($img, 0, 0, $width, $height, '', '', '', false, 300, '', false, false, 0);
       }
 }
 

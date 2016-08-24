@@ -45,6 +45,10 @@ MMTCPDF::writeHtml(view('pdf', array('records'=> $query)));
 MMTCPDF::Output('report.pdf', 'I');
 ```
 ```
+Margin
+MMTCPDF::SetMargins(1, 1, 1);
+
+Paper Size
 MMTCPDF::AddPage ->
 P = Portrait
 L = Landscape
@@ -53,6 +57,13 @@ MMTCPDF::Output ->
 F = localserver download
 D = download
 I = inline
+
+$pagelayout = array('80', '210');
+MMTCPDF::AddPage('P',$pagelayout);
+
+// Background Image (width x height unit mm)
+$img_file = public_path('upload/').'images.jpg';
+MMTCPDF::setBgImage($img_file, 210, 148);
 ```
 
 ## License
