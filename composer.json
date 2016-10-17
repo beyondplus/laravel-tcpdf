@@ -12,7 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": { "elibyy/tcpdf-laravel": "5.2.*" },
+    "require": { "elibyy/tcpdf-laravel": "5.3.*" },
     "autoload": {
         "psr-4": {
           "BeyondPlus\\TCPDF\\": "src/"
