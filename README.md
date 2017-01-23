@@ -2,7 +2,7 @@
 Custom Font View PDF Generator
 
 # Requirement
-laravel 5 or greater than
+laravel 5.3
 
 # Configure
 
@@ -65,6 +65,7 @@ MMTCPDF::AddPage('P',$pagelayout);
 $img_file = public_path('upload/').'images.jpg';
 MMTCPDF::setBgImage($img_file, 210, 148);
 ```
+Implemented [elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-laravel)
 
 ## License
 
