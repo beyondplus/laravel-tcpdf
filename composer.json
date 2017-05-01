@@ -4,6 +4,7 @@
     "keywords": ["PDF","Myanmar Font", "Beyond Plus","TCPDF"],
     "homepage": "https://github.com/beyondplus/laravel-tcpdf",
     "type": "library",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
