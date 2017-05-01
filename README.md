@@ -2,7 +2,7 @@
 Custom Font View PDF Generator
 
 # Requirement
-laravel 5.3
+laravel 5.4
 
 # Configure
 
@@ -72,4 +72,4 @@ Implemented [elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-l
 The Beyond Plus Laravel TCPDF is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 # Website
-[www.beyondplus.net](http://www.beyondplus.net)
+[www.beyondplus.biz](http://www.beyondplus.biz)
