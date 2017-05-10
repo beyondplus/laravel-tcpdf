@@ -79,8 +79,8 @@ php artisan vendor:publish
 - integrate it at laravel autoload and use it
 
 ## Refrence
-[elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-laravel)
-[https://github.com/Rabbit-Converter/Rabbit-PHP](https://github.com/Rabbit-Converter/Rabbit-PHP)
+- [elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-laravel)
+- [https://github.com/Rabbit-Converter/Rabbit-PHP](https://github.com/Rabbit-Converter/Rabbit-PHP)
 
 ## License
 
