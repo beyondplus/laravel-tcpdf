@@ -3,7 +3,7 @@
     "description": "TCPDF Custom Font for Myanmar",
     "keywords": ["PDF","Myanmar Font", "Beyond Plus","TCPDF"],
     "type": "library",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {

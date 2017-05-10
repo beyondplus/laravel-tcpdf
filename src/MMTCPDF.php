@@ -21,7 +21,7 @@ class MMTCPDF
         if($fontname == 'Zawgyi-One'){
           $fontname = TCPDF_FONTS::addTTFfont(dirname(__FILE__).'/font/Zawgyi-One.ttf', 'TrueTypeUnicode', '', 32);
         } elseif ($fontname == 'Myanmar3') {
-          $fontname = TCPDF_FONTS::addTTFfont(dirname(__FILE__).'/font/Zawgyi-One.ttf', 'TrueTypeUnicode', '', 32);
+          $fontname = TCPDF_FONTS::addTTFfont(dirname(__FILE__).'/font/Myanmar3.ttf', 'TrueTypeUnicode', '', 32);
         }
         return  $fontname;
       }
