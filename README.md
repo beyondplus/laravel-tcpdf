@@ -65,7 +65,22 @@ MMTCPDF::AddPage('P',$pagelayout);
 $img_file = public_path('upload/').'images.jpg';
 MMTCPDF::setBgImage($img_file, 210, 148);
 ```
-Implemented [elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-laravel)
+
+## At the Blade Template
+```
+<span style="font-family:Zawgyi-One">ျမန္မာစာ</span>
+```
+
+## Font Converter
+```
+php artisan vendor:publish
+```
+- see the App/Http/Helper function  
+- integrate it at laravel autoload and use it
+
+## Refrence
+[elibyy/tcpdf-laravel](https://packagist.org/packages/elibyy/tcpdf-laravel)
+[https://github.com/Rabbit-Converter/Rabbit-PHP](https://github.com/Rabbit-Converter/Rabbit-PHP)
 
 ## License
 
