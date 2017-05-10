@@ -1,5 +1,5 @@
 # laravel-tcpdf
-Custom Font View PDF Generator
+Custom Myanmar Font View PDF Generator
 
 # Requirement
 laravel 5.4
