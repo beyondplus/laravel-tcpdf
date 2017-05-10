@@ -71,11 +71,11 @@ MMTCPDF::setBgImage($img_file, 210, 148);
 <span style="font-family:Zawgyi-One">ျမန္မာစာ</span>
 ```
 
-## Font Converter
+## Font Converter For Myanmar 3
 ```
 php artisan vendor:publish
 ```
-- see the App/Http/Helper function  
+- see the App/Http/helper.php function  
 - integrate it at laravel autoload and use it
 
 ## Refrence
