@@ -49,6 +49,7 @@ class MMTCPDF
       public static function setBgImage($img, $width , $height) {
         return TCPDF::Image($img, 0, 0, $width, $height, '', '', '', false, 300, '', false, false, 0);
       }
+
 }
 
 

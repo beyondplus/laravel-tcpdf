@@ -14,15 +14,15 @@ class TcpdfServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        // if (is_dir(base_path().'/resources/views/bp-admin')) {
-        //     $this->loadViewsFrom(base_path().'/resources/views/bp-admin', 'bp-admin');
+        // if (is_dir(base_path().'/app/Http')) {
+        //     $this->loadViewsFrom(base_path().'/app/Http', 'Helper');
         // } else {
         //     $this->loadViewsFrom(__DIR__.'/views', 'bp-admin');
         // }
-        //
-        // $this->publishes([
-        //     __DIR__.'/views' => base_path('resources/views/bp-admin'),
-        // ]);
+        
+        $this->publishes([
+            __DIR__.'/helper' => base_path('app/Http'),
+        ]);
     }
 
     /**
@@ -32,7 +32,7 @@ class TcpdfServiceProvider extends ServiceProvider
      */
      public function register()
       {
-            App::bind('MMTCPDF', function()
+          App::bind('MMTCPDF', function()
           {
               return new \BeyondPlus\TCPDF\MMTCPDF;
           });
